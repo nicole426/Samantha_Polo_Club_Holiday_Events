@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thanksgiving and Holiday Events in Boca Raton and Delray Beach | Samantha Gornstein, The Edmund Bogen Team</title>
+<meta name="description" content="Tree lightings, the West Boca Turkey Trot, downtown parades, a Hanukkah celebration and the return of Sandi — a Polo Club guide to Thanksgiving and holiday events across Boca Raton, Delray Beach and West Palm Beach.">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Georgia&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:Georgia,'Times New Roman',serif;background:#fff;color:#1a1a1a;}
+  a{color:#0a6d9c;text-decoration:none;}
+  .ai-note{font-family:'Montserrat',sans-serif;font-size:10px;color:#999;font-style:italic;text-align:center;padding:8px 16px;background:#fafafa;border-bottom:1px solid #f0f0f0;}
+  .nav{background:#1a3e5c;padding:16px 28px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;}
+  .nav .logo{color:#fff;font-family:'Montserrat',sans-serif;font-size:13px;letter-spacing:3px;text-transform:uppercase;font-weight:300;text-decoration:none;}
+  .nav .logo strong{font-weight:600;letter-spacing:4px;}
+  .nav a{color:#8cb4d5;font-family:'Montserrat',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:600;}
+  .hero{position:relative;max-height:560px;overflow:hidden;}
+  .hero img{display:block;width:100%;height:auto;}
+  .hero .ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,62,92,0) 45%,rgba(26,62,92,0.45) 100%);}
+  .imgnote{font-family:'Montserrat',sans-serif;font-size:10px;color:#999;font-style:italic;text-align:center;padding:8px 16px;background:#fafafa;border-bottom:1px solid #f0f0f0;}
+  .article{max-width:720px;margin:0 auto;padding:48px 24px 20px;}
+  .eyebrow{font-family:'Montserrat',sans-serif;color:#c8102e;font-size:11px;letter-spacing:4px;text-transform:uppercase;font-weight:600;margin-bottom:16px;}
+  h1{font-weight:400;font-size:40px;line-height:1.15;color:#1a3e5c;margin-bottom:14px;letter-spacing:0.5px;}
+  .dek{font-size:20px;line-height:1.5;color:#555;font-style:italic;margin-bottom:24px;}
+  .byline{font-family:'Montserrat',sans-serif;font-size:12px;color:#888;letter-spacing:1px;text-transform:uppercase;border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;padding:14px 0;margin-bottom:36px;}
+  .byline b{color:#1a3e5c;}
+  .article p{font-size:18px;line-height:1.8;margin-bottom:24px;color:#222;}
+  .article h2{font-family:'Montserrat',sans-serif;font-weight:600;font-size:20px;color:#1a3e5c;letter-spacing:0.5px;margin:48px 0 20px;padding-bottom:10px;border-bottom:2px solid #00a8e1;}
+  .ev{margin:30px 0;}
+  .ev h3{font-family:'Montserrat',sans-serif;font-weight:600;font-size:17px;color:#1a3e5c;letter-spacing:0.3px;margin:0 0 4px;}
+  .ev .when{font-family:'Montserrat',sans-serif;font-size:12px;color:#c8102e;letter-spacing:1px;text-transform:uppercase;font-weight:600;margin-bottom:12px;}
+  .ev p{margin-bottom:12px !important;}
+  .ev .src{font-family:'Montserrat',sans-serif;font-size:12px;letter-spacing:0.5px;}
+  .callout{background:#f8f9fb;border-left:4px solid #00a8e1;padding:20px 24px;margin:32px 0;font-size:17px;line-height:1.7;color:#222;}
+  .callout b{display:block;font-family:'Montserrat',sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#1a3e5c;margin-bottom:6px;}
+  .btn{display:inline-block;background:#00a8e1;color:#fff;padding:13px 32px;font-family:'Montserrat',sans-serif;font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:600;border-radius:2px;}
+  .cta{background:#1a3e5c;padding:40px 28px;text-align:center;border-radius:3px;margin:44px 0;font-family:'Montserrat',sans-serif;}
+  .cta .eb{color:#00a8e1;font-size:11px;letter-spacing:4px;text-transform:uppercase;font-weight:600;margin-bottom:10px;}
+  .cta h3{color:#fff;font-weight:300;font-size:24px;margin:0 0 14px;}
+  .cta p{color:#dce2e6;font-size:14px;line-height:1.7;max-width:540px;margin:0 auto 22px;}
+  .cta p a{color:#fff;}
+  .bio{max-width:720px;margin:0 auto;padding:36px 24px;display:flex;gap:24px;align-items:center;border-top:3px solid #00a8e1;flex-wrap:wrap;font-family:'Montserrat',sans-serif;}
+  .bio img{width:130px;height:130px;border-radius:50%;}
+  .bio h3{color:#1a3e5c;font-size:18px;margin-bottom:6px;}
+  .bio p{font-size:13px;color:#555;line-height:1.6;}
+  .bio > div{flex:1;min-width:240px;}
+  .disc{max-width:720px;margin:0 auto;padding:28px 24px;font-family:'Montserrat',sans-serif;font-size:11px;color:#888;line-height:1.7;border-top:1px solid #eee;}
+  footer{background:#0d2137;padding:28px;text-align:center;color:#8cb4d5;font-family:'Montserrat',sans-serif;font-size:10px;line-height:1.7;}
+  @media(max-width:600px){.nav{padding:14px 16px;}.article{padding:36px 16px 16px;}h1{font-size:28px;}.dek{font-size:17px;}.article p{font-size:16px;}.bio,.disc{padding-left:16px;padding-right:16px;}.bio{justify-content:center;text-align:center;}}
+</style>
+</head>
+<body>
+
+<div class="ai-note">This email and artwork were created with the assistance of artificial intelligence.</div>
+
+<div class="nav">
+  <a href="https://bogenhomes.com" target="_blank" style="text-decoration:none;display:block;"><div class="logo">THE EDMUND <strong>BOGEN</strong> TEAM</div><div style="color:#8cb4d5;font-family:'Montserrat',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;margin-top:3px;">at Douglas Elliman Real Estate</div></a>
+  <a href="https://bogenhomes.com/agents/samantha-gornstein/" target="_blank">Contact &rarr;</a>
+</div>
+
+<div class="hero"><img src="hero.jpg" alt="Samantha Gornstein in a holiday-decorated living room with a lit menorah and a decorated tree, overlooking a South Florida waterway at sunset" width="1200"><div class="ov"></div></div>
+<div class="imgnote">This image was created using artificial intelligence.</div>
+
+<div class="article">
+
+  <div class="eyebrow">Community &middot; Holiday Guide</div>
+  <h1>Thanksgiving and Holiday Events in Boca Raton and Delray Beach</h1>
+  <div class="dek">Tree lightings, a Thanksgiving morning Turkey Trot, two downtown parades, a Hanukkah celebration and the return of Sandi &mdash; what to put on the calendar this season.</div>
+  <div class="byline">By <b>Samantha Gornstein</b> &middot; The Edmund Bogen Team at Douglas Elliman Real Estate &middot; November 16, 2026</div>
+
+  <p>Thanksgiving falls on Thursday, November 26, and for Polo Club residents hosting family this year, there's plenty to do together before and after the big meal. Boca Raton lights its holiday tree the weekend before Thanksgiving, West Boca's annual Turkey Trot gives families a reason to get outside on Thursday morning, and CityPlace has an evening snowfall for anyone looking to get out of the house over the long weekend.</p>
+
+  <p>In December, the celebrations move to Atlantic Avenue and the West Palm Beach waterfront, with two downtown parades, Delray Beach's 100-foot Christmas tree, a Hanukkah gathering and the return of Sandi, West Palm Beach's Christmas tree made of sand. Here's what to put on the calendar.</p>
+
+  <h2>November and Thanksgiving Weekend</h2>
+
+  <div class="ev">
+    <h3>Boca Raton Holiday Tree Lighting</h3>
+    <div class="when">Saturday, November 21 &middot; 6&ndash;10 p.m. &middot; Mizner Park Amphitheater</div>
+    <p>Mizner Park Amphitheater hosts Boca Raton's free kickoff to the holiday season on the Saturday before Thanksgiving. The evening includes live music, a holiday market, children's crafts and photos with Santa. Food and drinks will be available for purchase, so it's easy to make an evening of it with family or friends. The interior roads at Mizner Park close to vehicle traffic at 5 p.m., an hour before festivities begin.</p>
+    <p class="src"><a href="https://www.myboca.us/1466/Holiday-Tree-Lighting" target="_blank">City of Boca Raton event details &rarr;</a></p>
+  </div>
+
+  <div class="ev">
+    <h3>Levis JCC Thanksgiving Turkey Trot in West Boca</h3>
+    <div class="when">Thursday, November 26 &middot; 7:30 a.m. &middot; Sunset Cove Amphitheater</div>
+    <p>If your household likes to get moving before the turkey goes in the oven, head to Sunset Cove Amphitheater for the 18th annual Levis JCC Turkey Trot. The Thanksgiving morning event includes a 5K run or walk and a separate one-mile youth fun run. Gates open at 6 a.m., and the 5K starts at 7:30 a.m., leaving much of the day free for Thanksgiving plans. Proceeds benefit Levis JCC programs and services for local children and families.</p>
+    <p class="src"><a href="https://discover.pbc.gov/parks/amphitheaters/Lists/Events/NewsDispForm.aspx?ID=430" target="_blank">Turkey Trot and registration details &rarr;</a></p>
+  </div>
+
+  <div class="ev">
+    <h3>Thanksgiving Weekend Snowfall at CityPlace</h3>
+    <div class="when">Nightly &middot; 6:30, 7:30 and 8:30 p.m. &middot; West Palm Beach</div>
+    <p>For an outing with out-of-town guests, pair dinner in downtown West Palm Beach with a stop in the CityPlace square. With three scheduled snowfalls each evening, families with young children can catch the first one, while anyone lingering over dinner can aim for a later show. The snowfall continues through December 31, weather permitting.</p>
+    <p class="src"><a href="https://www.cityplace.com/west-palm-beach-events/nightly-snowfall" target="_blank">CityPlace snowfall schedule &rarr;</a></p>
+  </div>
+
+  <h2>December Holiday Events</h2>
+
+  <div class="ev">
+    <h3>Delray Beach's 100-Foot Christmas Tree Lighting and Yuletide Street Fair</h3>
+    <div class="when">Tuesday, December 1 &middot; 6&ndash;9 p.m. &middot; Old School Square</div>
+    <p>Delray Beach opens December with one of its best-known traditions. The street fair spreads across Old School Square, Atlantic Avenue and Pineapple Grove, with vendors, musical performances and children's crafts. Food trucks on Swinton Avenue make it easy to grab dinner while you explore. Santa is scheduled to light the tree at 7 p.m., so there's time to browse before the countdown or stay afterward to see downtown lit up.</p>
+    <p class="src"><a href="https://www.delraybeachfl.gov/our-city/things-to-do/100-ft-christmas-tree" target="_blank">Delray Beach tree lighting and street fair details &rarr;</a></p>
+  </div>
+
+  <div class="ev">
+    <h3>Boca Raton Holiday Street Parade</h3>
+    <div class="when">Wednesday, December 2 &middot; 7:30&ndash;9 p.m. &middot; Downtown Boca Raton</div>
+    <p>This year's parade theme is "Boca by the Beach," a fitting backdrop for an evening of decorated floats, music and dancing from local community groups. Anyone who has watched the parade from the same spot for years should check the city's event page before heading out. The city expects changes to the route because of roadwork on Federal Highway.</p>
+    <p class="src"><a href="https://myboca.us/1465/Holiday-Street-Parade" target="_blank">Boca Raton Holiday Street Parade updates &rarr;</a></p>
+  </div>
+
+  <div class="ev">
+    <h3>Holiday in Paradise and the Lighting of Sandi</h3>
+    <div class="when">Thursday, December 3 &middot; 6&ndash;10 p.m. &middot; West Palm Beach Waterfront</div>
+    <p>West Palm Beach puts its own spin on the Christmas tree with Sandi, the downtown waterfront's signature sand sculpture. The free opening celebration features live entertainment and Sandi's first lighting of the season. It also marks the start of nightly music and light shows, so you can plan a waterfront stroll on another December evening if opening night fills up your calendar.</p>
+    <p class="src"><a href="https://www.wpb.org/Residents/Community-Events/Events/Holiday-in-Paradise/Schedule-of-Holiday-Events" target="_blank">West Palm Beach Holiday in Paradise schedule &rarr;</a></p>
+  </div>
+
+  <div class="ev">
+    <h3>Community Hanukkah Celebration at CityPlace</h3>
+    <div class="when">Friday, December 11 &middot; West Palm Beach</div>
+    <p>Palm Beach Synagogue West brings its community Hanukkah celebration to CityPlace with a menorah lighting, live music and face painting. Families can enjoy latkes, doughnuts and gelt as part of the gathering. If you're bringing children, you can also plan your visit around one of CityPlace's evening snowfalls.</p>
+    <p class="src"><a href="https://www.cityplace.com/holidays" target="_blank">CityPlace holiday calendar &rarr;</a></p>
+  </div>
+
+  <div class="ev">
+    <h3>Delray Beach Holiday Parade</h3>
+    <div class="when">Saturday, December 12 &middot; 6&ndash;9 p.m. &middot; Atlantic Avenue</div>
+    <p>The following evening, Delray Beach takes the celebration back to Atlantic Avenue. Floats, marching bands and dance teams are scheduled to travel from the Intracoastal Bridge to Northwest Fifth Avenue. For Polo Club families looking for a Saturday outing with grandparents or visiting relatives, make an early dinner reservation downtown and leave time to find a spot along the route.</p>
+    <p class="src"><a href="https://www.delraybeachfl.gov/home/showpublisheddocument/15539/639154759300870000" target="_blank">City of Delray Beach parade information &rarr;</a></p>
+  </div>
+
+  <div class="callout"><b>Before You Go</b>Event dates, times and routes can change, and several of these are weather-dependent. Check the official page linked with each listing before you head out &mdash; particularly the Boca Raton parade, where the city has flagged possible route changes.</div>
+
+  <p>One of the pleasures of living at The Polo Club is having both Boca Raton and Delray Beach close enough for a spontaneous evening out, with the West Palm Beach waterfront an option when you have a little more time. If family is visiting this season, take them to a tradition you already love and pick one new event to try together.</p>
+
+  <p>Wishing our Polo Club neighbors a happy Thanksgiving and a wonderful holiday season.</p>
+
+  <p style="text-align:center;margin:36px 0 0;"><a class="btn" href="polo-club-listings.html">View Polo Club Listings</a></p>
+
+  <div class="cta">
+    <div class="eb">Straight Answers, Real Numbers</div>
+    <h3>Contact Samantha Gornstein</h3>
+    <p>Call or text <span style="color:#ffffff;font-weight:600;">561-707-6607</span> &middot; <a href="mailto:samantha@bogenhomes.com" style="color:#ffffff;font-weight:600;">samantha@bogenhomes.com</a></p>
+    <a class="btn" href="https://bogenhomes.com/agents/samantha-gornstein/" target="_blank">Contact Samantha</a>
+  </div>
+
+</div>
+
+<div class="bio">
+  <img src="samantha-headshot.jpg" alt="Samantha Gornstein" width="130" height="130">
+  <div>
+    <h3>About the Author</h3>
+    <p>Samantha Gornstein is a Licensed Real Estate Salesperson with The Edmund Bogen Team at Douglas Elliman Real Estate. She specializes in Boca Raton's premier luxury gated communities and country clubs, with a particular focus on The Polo Club, and brings data-driven market intelligence to buyers and sellers across the Boca / Delray / Palm Beach luxury corridor.</p>
+    <p style="margin-top:8px;"><a href="mailto:samantha@bogenhomes.com">samantha@bogenhomes.com</a> &middot; Cell: <span style="color:#555;">561-707-6607</span></p>
+  </div>
+</div>
+
+<div class="disc">
+  Event details were checked on November 16, 2026 against the organizers' own pages, linked with each listing. Dates, times, routes and ticketing can change, and outdoor events are weather-dependent; confirm with the organizer before you go. This article is for general information only and is not legal, tax or investment advice, and it should not be used to infer the suitability or demographic character of any neighborhood or community. Market data courtesy of BeachesMLS; information is deemed reliable but not guaranteed. If your property is currently listed with another broker, this is not a solicitation of that listing. The hero image was created using artificial intelligence and does not depict a real place or event. This article was developed with the assistance of artificial intelligence. Equal Housing Opportunity.
+</div>
+
+<footer>
+  <div style="color:#fff;font-weight:700;font-size:13px;margin-bottom:4px;">The Edmund Bogen Team at Douglas Elliman Real Estate</div>
+  <div>Article by Samantha Gornstein &middot; November 16, 2026 &middot; Call or text 561-707-6607</div>
+  <div style="margin-top:6px;">444 E Palmetto Park Rd, Boca Raton, FL 33432 &middot; 561-235-7575</div>
+  <div style="margin-top:8px;">Market data courtesy of BeachesMLS. Information is deemed reliable but not guaranteed. Equal Housing Opportunity.</div>
+</footer>
+
+</body>
+</html>
